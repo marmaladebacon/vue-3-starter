@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "esnext",
-    "module": "esnext",
+    "module": "commonjs",
+    "target": "ES2019",
     "strict": true,
     "jsx": "preserve",
     "importHelpers": true,
@@ -21,6 +21,7 @@
       ]
     },
     "lib": [
+      "ES2019",
       "esnext",
       "dom",
       "dom.iterable",
@@ -35,6 +36,7 @@
     "tests/**/*.tsx"
   ],
   "exclude": [
+    "src/**/*.spec.ts",
     "node_modules"
   ]
 }

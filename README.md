@@ -1,4 +1,4 @@
-# vue-3-trader
+# vue-3-starter
 
 ## Project setup
 ```
